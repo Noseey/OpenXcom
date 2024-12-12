@@ -17,6 +17,7 @@
 
 #include <SDL_opengl.h>
 #include <string>
+#include <cstdint>
 
 namespace OpenXcom
 {

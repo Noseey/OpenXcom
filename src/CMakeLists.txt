@@ -483,9 +483,9 @@ if ( WIN32 )
   if ( MINGW )
     set ( basic_windows_libs ${basic_windows_libs} mingw32 -mwindows )
     set ( static_flags  -static )
-    set ( SDLMIXER_LIBRARY "${SDLMIXER_LIBRARY} -lwinmm" )
+    set ( SDLMIXER_LIBRARY ${SDLMIXER_LIBRARY} "-lwinmm" )
   endif ()
-  set ( system_libs ${basic_windows_libs} SDLmain ${static_flags} )
+  set ( system_libs ${basic_windows_libs} E:/Workspace/OpenXcom/deps/SDL/lib/libSDLmain.a ${static_flags} )
 endif ()
 
 # backtrace(3) requires libexecinfo on some *BSD systems
