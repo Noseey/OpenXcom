@@ -1,0 +1,7 @@
+{
+    "cmake.cacheInit": null,
+    "cmake.configureSettings": {},
+    "cmake.configureArgs": [
+        "-DCMAKE_PREFIX_PATH=E:\\Workspace\\OpenXcom\\deps\\SDL;E:\\Workspace\\OpenXcom\\deps\\SDL_mixer;E:\\Workspace\\OpenXcom\\deps\\SDL_gfx;E:\\Workspace\\OpenXcom\\deps\\SDL_image;E:\\Workspace\\OpenXcom\\deps\\yaml-cpp"
+    ]
+}
